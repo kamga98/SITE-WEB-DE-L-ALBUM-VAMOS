@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ album.artist }} - {{ album.title }}</title>  
+    <title>{{ VAMO$ }} - {{ made by THUAGO SAN }}</title>  
 
     <style>
         body {
@@ -106,32 +106,18 @@
 
     <div class="hero">
 
-        <div class="cover">
-            <img src="{{ album.cover }}" alt="Album cover">
-        </div>
-
         <div class="info">
-            <div class="artist">{{ album.artist }}</div>
-            <h1 class="title">{{ album.title }}</h1>
+            <div class="artist">{{ THIAGO SAN }}</div>
+            <h1 class="title">{{ VAMOS }}</h1>
             <div class="meta">
-                Released: {{ album.year }} • {{ album.tracks|length }} tracks
+                Released: {{ 2026 }} • {{ 20 }} tracks
             </div>
         </div>
 
     </div>
 
     <div class="tracks">
-        <h2>Tracks</h2>
-
-        <ul class="track-list">
-            {% for track in album.tracks %}
-                <li class="track">
-                    <span class="number">{{ loop.index }}</span>
-                    <span class="name">{{ track.name }}</span>
-                    <span class="duration">{{ track.duration }}</span>
-                </li>
-            {% endfor %}
-        </ul>
+        <h2>Tracks</h2> 
     </div>
 
 </body>
