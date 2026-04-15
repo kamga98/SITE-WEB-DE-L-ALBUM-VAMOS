@@ -14,9 +14,7 @@ final class TestController extends AbstractController
      */
     public function index(): Response
     {  
- 
-       // dd("Welcome to my house!!!!!!!!!!!!!!!!");   
- 
+   
        $album = [
             'artist' => 'Global Star',
             'title' => 'Rise of a Legend',
